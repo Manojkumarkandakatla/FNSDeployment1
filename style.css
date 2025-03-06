@@ -1,0 +1,21 @@
+ol,ul{
+    background-color: aquamarine;
+    width: 10%;
+    display: inline-block;
+    margin: 1px solid brown;
+    padding: 30px;
+    border-radius: 17px;
+}
+
+li{
+    background-color: palevioletred;
+    padding: 20px;
+    margin: 2px solid green;
+    padding: 15px;
+    border-radius: 18%;
+    color: yellowgreen;
+}
+
+li:hover{
+    background-color: black;
+}

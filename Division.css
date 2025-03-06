@@ -1,0 +1,42 @@
+.c1{
+    background: linear-gradient(30deg, white, black);
+}
+
+#id1{
+    background: linear-gradient(40deg, orange, green);
+}
+
+.c2{
+    background: linear-gradient(30deg, gray, white);
+}
+
+
+.c1:hover{
+    background: linear-gradient(50deg, yellow, black)
+}
+
+#id1:hover{
+    background: linear-gradient(50deg, skyblue, white);
+}
+
+.c2:hover{
+    display: none;
+}
+
+div{
+    border: 10px, solid blue;
+    width: 20%;
+    display: inline-block;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px, 0px, 20px, 0px;
+    color: black
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

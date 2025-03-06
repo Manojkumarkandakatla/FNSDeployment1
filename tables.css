@@ -1,0 +1,24 @@
+table,td,th{
+    border: 1px solid green;
+    text-align: center;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+th{
+    height: 40px;
+
+}
+
+td{
+    height: 25px;
+}
+
+
+tr:nth-child(even){
+    background-color: lightcyan;
+    color: aquamarine;
+}

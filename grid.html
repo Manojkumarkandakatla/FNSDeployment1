@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example</title>
+        <style>
+            body{
+                padding: 10%;
+                margin: 15%;
+                box-sizing: background-box;
+            }
+            .parent{
+                height: 100vh;
+                display: grid;
+                padding: 0%;
+                display: 100vh;
+                margin: 0%;
+                grid-template-columns: 15% 70% 15%;
+                grid-template-rows: 10% 80% 10%;
+                
+            }
+            .Header{
+                background-color: bisque;
+                display: grid;
+                grid-column: 1/2;
+               grid-row: 1/4;
+            }
+
+            .Left menu{
+                background-color: yellowgreen;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+
+            
+            .Main{
+                background-color: palegreen;
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+
+            
+            .Right menu{
+                background-color: blue;
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+
+            .Fotter{
+                background-color: orangered;
+                grid-column: 1/4;
+                grid-row: 3/4;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+        <div class="Header">Header</div>
+        <div class="Left menu">Left menu</div>
+        <div class="Main">Main</div>
+        <div class="Right menu">Right menu</div>
+        <div class="Fotter">Fotter</div>
+        </div>
+    </body>
+</html>

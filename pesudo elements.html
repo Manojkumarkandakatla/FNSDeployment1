@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesudo Elaments</title>
+        <style>
+            p::before{
+                content: "👋"
+            }
+            P::after{
+                content: "👍"
+            }
+            p::first-letter{
+                color: blue;
+                font-weight: bold;
+                font-size: 50px;
+            }
+            p::first-line{
+                background-color: salmon;
+            }
+            p::selection{
+                background-color: olive;
+            }
+        </style>
+        <body>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sequi illo iste, sed numquam officiis natus ea quaerat quod ipsum, magnam adipisci quasi, deleniti nihil impedit. Quos magni ducimus sunt, impedit, natus eum exercitationem temporibus, dolorum laudantium beatae nulla iste ipsum excepturi obcaecati facilis consectetur sit earum aliquam ad in.</p>
+        </body>
+    </head>
+</html>
